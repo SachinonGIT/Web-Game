@@ -117,9 +117,12 @@ function AllUserIdCompo() {
   const handleMsgResponse = () => {
     if (innerMsg === chatUserMsg[msgIndex].msgtxt) {
       setIsUserOnline("text-green-400");
+      // setRenderingMsg((prevMsgs)=> [...prevMsgs, "..."])
       setTimeout(() => {
         const response = chatUserMsg[msgIndex].response;
+
         // Append the response message
+
         setRenderingMsg((prevMsgs) => [...prevMsgs, response]);
 
         // Move to next message interaction
@@ -136,17 +139,17 @@ function AllUserIdCompo() {
 
   // Send message function
   const sendMsg = (e) => {
-
-    if (innerMsg.includes("is Offline")) {
-      e.preventDefault()
+    if (innerMsg.includes("is Offline") || innerMsg.includes("typing...")) {
+      e.preventDefault();
       console.log("user is Offline");
-
-    }else{
+    } else {
       // Handle the response after sending the message
       const sendMsg = innerMsg;
 
       // Append user's message
       setRenderingMsg((prevMsgs) => [...prevMsgs, sendMsg]);
+
+      setinnerMsg(`${chatUserName} is typing...`);
 
       // Display user's message
       setMsg(

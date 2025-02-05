@@ -4,7 +4,7 @@ function Diary() {
   return (
     <><div className=" bg-slate-600 w-full h-screen backdrop-blur-md ">
     <div className="max-w-screen-sm m-auto text-center  h-screen bg-slate-900 text-slate-300">
-      this is diary
+      <p className='italic'>Coming Soon...</p>
       
       
       </div></div>

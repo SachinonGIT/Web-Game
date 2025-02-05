@@ -32,13 +32,13 @@ function App() {
         <Route path="/chats" element={<Chats />}/>
             <Route path="/chats/:userId" element={<AllUserIdCompo/>}/>
         <Route path="/call" element={<Call />} >
-          <Route path="" element={<CallHome/>} />
+          <Route index element={<CallHome/>} />
           <Route path="Calldailer" element={<CallDialer />} />
         </Route>
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/snapster" element={<Snapster />}>
-         <Route path="" element={<SnapHome />} />
-         <Route path="snapuser" element={<SnapUserProfile />} />
+         <Route index element={<SnapHome />} />
+         <Route path=":ParamId" element={<SnapUserProfile />} />
          </Route>
         <Route path="/mail" element={<Mail />} />
         <Route path="/diary" element={<Diary />} />

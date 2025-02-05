@@ -1,32 +1,57 @@
-import React from "react";
-import { FaPlus } from "react-icons/fa";
-import { FaCircleUser } from "react-icons/fa6";
-import { IoHome } from "react-icons/io5";
-import { Link, Outlet } from "react-router-dom";
-
-
+import React, { useEffect, useState } from "react";
+import { Link, Outlet, useParams } from "react-router-dom";
+import kaushalImg from "../../../Images/kaushal.jpg";
+import { RxCross2 } from "react-icons/rx";
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 function Snapster() {
+  const mainUrl = useParams()
+   // Check localStorage for saved state or default to true
+   const [backBtn, setBackBtn] = useState(false);
+
+   useEffect(()=>{
+   
+    if(mainUrl.ParamId === undefined){
+      setBackBtn(true)
+    }
+    else{
+      setBackBtn(false)
+    }
+   },[mainUrl,mainUrl.ParamId])
   
+ 
   return (
     <>
       <div className="box-border bg-slate-600 w-full h-screen">
         <div className="max-w-screen-sm m-auto text-center h-screen bg-slate-900 text-slate-300 flex flex-col overflow-hidden">
-          <div className="p-2 text-slate-200/80 block sm:hidden border-b border-white/10">Snapster - The Social App</div>
-          <div className="overflow-y-scroll scrollbar-none flex-1">
-          <Outlet />
-          
-          </div>
-          
-          <header className="border-t border-white/20 flex justify-evenly items-center p-3">
-            <div><Link to="/"><IoHome className="w-7 h-7 hover:text-slate-200" /></Link></div>
-            <div><FaPlus className="w-8 h-8" /></div>
-            <div><Link to="snapuser"><FaCircleUser className="w-7 h-7 hover:text-slate-200" /></Link></div>
+          <header className="border-b border-white/20 flex justify-between items-center p-2 px-5">
+            <div className="w-9 rounded-full overflow-hidden">
+              {backBtn ? (
+                <Link to="/snapster/kishortokaushal">
+                  <img src={kaushalImg} alt="dp" />
+                </Link>
+              ) : (
+                <Link to="/snapster">
+                  <IoMdArrowRoundBack className="w-9 h-9"  />
+                </Link>
+              )}
+            </div>
+            <div>
+              <p className="font-semibold">Snapster - The Social App</p>
+            </div>
+            <div>
+              <Link to="/">
+                <RxCross2 className="w-9 h-9 hover:text-slate-200" />
+              </Link>
+            </div>
           </header>
+
+          <div className=" flex flex-col overflow-hidden flex-1">
+            <Outlet />
+          </div>
         </div>
       </div>
     </>
-  );
-}
+  )};
 
 export default Snapster;
