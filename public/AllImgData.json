@@ -1,0 +1,66 @@
+[
+    {
+      "UserId": "1",
+      "UserName": "Adam",
+      "UserBio": "This is Adam",
+      "Followers": 1320,
+      "Following": 35,
+      "UploadedPosts": [
+        {
+          "PostId": "101",
+          "Image": "./src/assets/Images/MainUser.jpg",
+          "Caption" : "this is post Caption",
+          "Likes" : 5,
+          "Comments" : [{"userProfile" : "./src/assets/Images/Priyanshu.jpg",
+                         "userName" : "Priyanshu",
+                         "cmdText": "this is Priyanshu's Comment",
+                         "id" : 0
+                       },{"userProfile" : "./src/assets/Images/Kaushal.jpg",
+                       "userName" : "Kaushal",
+                       "cmdText": "this is Kaushal's Comment",
+                       "id" : 0
+                     }
+                      ]
+        },
+        {
+          "PostId": "102",
+          "Image": "./src/assets/Images/Priyanshu.jpg"
+        }
+      ]
+    },
+    {
+      "UserId": "2",
+      "UserName": "Priyanshu",
+      "UserBio": "This is Priyanshu",
+      "Followers": 1100,
+      "Following": 120,
+      "UploadedPosts": [
+        {
+          "PostId": "201",
+          "Image": "./src/assets/Images/Priyanshu.jpg"
+        },
+        {
+          "PostId": "202",
+          "Image": "./src/assets/Images/Kaushal.jpg"
+        }
+      ]
+    },
+    {
+      "UserId": "3",
+      "UserName": "Kaushal",
+      "UserBio": "This is Kaushal",
+      "Followers": 2500,
+      "Following": 190,
+      "UploadedPosts": [
+        {
+          "PostId": "301",
+          "Image": "./src/assets/Images/Kaushal.jpg"
+        },
+        {
+          "PostId": "302",
+          "Image": "./src/assets/Images/Sachin.jpg"
+        }
+      ]
+    }
+  ]
+  

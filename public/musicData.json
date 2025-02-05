@@ -1,0 +1,45 @@
+[
+  {
+    "id": "0",
+    "title": "We Don't Talk Anymore",
+    "musicPath": "/music/weDontTalk.mp3",
+    "singer": "Charlie Puth",
+    "poster": "weDontTalk"
+  },
+  {
+    "id": "1",
+    "title": "chota sa fasana",
+    "musicPath": "/music/chotaSaFasana.mp3",
+    "singer": "arijit singh",
+    "poster": "chotaSaFasana"
+  },
+  {
+    "id": "2",
+    "title": "Die With A Smile",
+    "musicPath": "/music/dieWithSmile.mp3",
+    "singer": "Lady Gaga",
+    "poster": "dieWithSmile"
+  },
+  {
+    "id": "3",
+    "title": "Gulabi",
+    "musicPath": "/music/gulabiSong.mp3",
+    "singer": "arijit singh",
+    "poster": "gulabiSong"
+  },
+  {
+    "id": "4",
+    "title": "Bad Boy X Bad Girl",
+    "musicPath": "/music/badBoy.mp3",
+    "singer": "Badshah",
+    "poster": "badBoy"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Tere Do Naina - Ankit Tiwari",
+    "musicPath": "/music/yeTereDoNaina.mp3",
+    "singer": "Ankit Tiwari",
+    "poster": "yeTereDoNaina"
+  }
+]
