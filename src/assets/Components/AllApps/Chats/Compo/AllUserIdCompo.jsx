@@ -132,7 +132,7 @@ function AllUserIdCompo() {
         if (nextMsg.includes("is Offline")) {
           setIsUserOnline("text-slate-500");
         }
-      }, 500);
+      }, 1000);
       return;
     }
   };
