@@ -3,9 +3,9 @@ import { IoHomeSharp } from "react-icons/io5";
 import { MdDelete } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import GallImg from "../../../Images/map.webp";
-import sachinImg from "../../../Images/sachin.jpg";
-import kuashalImg from "../../../Images/kaushal.jpg";
-import priyanshuImg from "../../../Images/priyanshu.jpg";
+import sachinImg from "../../../Images/sachin.webp";
+import kuashalImg from "../../../Images/kaushal.webp";
+import priyanshuImg from "../../../Images/priyanshu.webp";
 
 import ImageCompo from "./ImageCompo";
 

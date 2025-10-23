@@ -5,9 +5,9 @@ import { Link, useParams } from "react-router-dom";
 import { IoCaretBack } from "react-icons/io5";
 import useCurrentTime from "../../Clock/useCurrentTime";
 import MsgBoxCompo from "./MsgBoxCompo";
-import sachinImg from "../../../../Images/sachin.jpg";
-import priyanshuImg from "../../../../Images/priyanshu.jpg";
-import kaushalImg from "../../../../Images/kaushal.jpg";
+import sachinImg from "../../../../Images/sachin.webp";
+import priyanshuImg from "../../../../Images/priyanshu.webp";
+import kaushalImg from "../../../../Images/kaushal.webp";
 import { TbPointFilled } from "react-icons/tb";
 
 // Message Box Component

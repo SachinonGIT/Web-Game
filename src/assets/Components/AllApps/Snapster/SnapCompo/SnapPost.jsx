@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import kaushalImg from "../../../../Images/kaushal.jpg";
+import kaushalImg from "../../../../Images/kaushal.webp";
 import { GoHeartFill } from "react-icons/go";
 import { MdModeComment } from "react-icons/md";
 import { Link } from "react-router-dom";

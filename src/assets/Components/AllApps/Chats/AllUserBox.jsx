@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sachinImg from "../../../images/sachin.jpg";
-import kaushalImg from "../../../images/kaushal.jpg";
-import priyanshuImg from "../../../images/priyanshu.jpg";
+import sachinImg from "../../../images/sachin.webp";
+import kaushalImg from "../../../images/kaushal.webp";
+import priyanshuImg from "../../../images/priyanshu.webp";
 
 const UserChatBoxOpener = ({chatUserId, yourName, lastMsg, unreadMsg, imgSRC }) => {
   return (

@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect, useMemo } from "react";
-import kaushalImg from "../../../../Images/kaushal.jpg";
-import priyanshuImg from "../../../../Images/priyanshu.jpg";
+import kaushalImg from "../../../../Images/kaushal.webp";
+import priyanshuImg from "../../../../Images/priyanshu.webp";
 import SnapPost from "./SnapPost";
 import { HiViewGrid } from "react-icons/hi";
 import { useParams } from "react-router-dom";
