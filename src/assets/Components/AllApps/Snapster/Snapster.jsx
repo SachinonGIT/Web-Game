@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, Outlet, useParams } from "react-router-dom";
-import kaushalImg from "../../../Images/kaushal.jpg";
+import kaushalImg from "../../../Images/kaushal.webp";
+// changed the kauhsal.jpg to kaushal.webp because of vercel deployment issue with jpg
 import { RxCross2 } from "react-icons/rx";
 import { IoMdArrowRoundBack } from "react-icons/io";
 
