@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sachinImg from "../../../images/sachin.webp";
-import kaushalImg from "../../../images/kaushal.webp";
-import priyanshuImg from "../../../images/priyanshu.webp";
 
 const UserChatBoxOpener = ({chatUserId, yourName, lastMsg, unreadMsg, imgSRC }) => {
   return (
@@ -38,7 +35,7 @@ function AllUserBox() {
       id: 1,
       chatUserDataId: "sachin",
       userName: "Sachin kumar",
-      imgSrc:  sachinImg,
+      imgSrc:  "./sachin.webp",
       lastMsg: "your last msg goes here...",
       unreadMsg: "2",
     },
@@ -46,7 +43,7 @@ function AllUserBox() {
       id: 2,
       chatUserDataId: "priyanshu",
       userName: "Priyanshu Shakya",
-      imgSrc: priyanshuImg,
+      imgSrc: "./priyanshu.webp",
       lastMsg: "Priyanshu's last msg goes here...",
       unreadMsg: "3",
     },
@@ -54,7 +51,7 @@ function AllUserBox() {
       id: 3,
       chatUserDataId: "kaushal",
       userName: "Kaushal Kishore",
-      imgSrc: kaushalImg,
+      imgSrc: "./kaushal.webp",
       lastMsg: "Kaushal's last msg goes here...",
       unreadMsg: "3",
     },

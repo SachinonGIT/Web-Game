@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import { IoHomeSharp } from "react-icons/io5";
 import { MdDelete } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
-import GallImg from "../../../Images/map.webp";
-import sachinImg from "../../../Images/sachin.webp";
-import kuashalImg from "../../../Images/kaushal.webp";
-import priyanshuImg from "../../../Images/priyanshu.webp";
 
 import ImageCompo from "./ImageCompo";
 
@@ -45,11 +41,11 @@ function Gallery() {
               <div className="text-left">Recent Photos</div>
 
               <div className="flex gap-1 flex-wrap py-2 overflow-y-scroll scrollbar-none">
-              <ImageCompo galImgUrl={GallImg} dialogTitle={"This is Photo"} />
-              <ImageCompo galImgUrl={sachinImg} dialogTitle={"This is Me"}/>
-              <ImageCompo galImgUrl={GallImg} />
-              <ImageCompo galImgUrl={kuashalImg} dialogTitle={"My Best Friend"} />
-              <ImageCompo galImgUrl={priyanshuImg} dialogTitle={"My Childhood Friend"} />
+              <ImageCompo galImgUrl="./map.webp" dialogTitle={"This is Photo"} />
+              <ImageCompo galImgUrl="./sachin.webp" dialogTitle={"This is Me"}/>
+              <ImageCompo galImgUrl="./map.webp" />
+              <ImageCompo galImgUrl="./kaushal.webp" dialogTitle={"My Best Friend"} />
+              <ImageCompo galImgUrl="./priyanshu.webp" dialogTitle={"My Childhood Friend"} />
                 </div>
             </div>
             {/* recent photos Components */}
@@ -58,9 +54,9 @@ function Gallery() {
               <div className="text-left">Favourites</div>
 
               <div className="flex gap-1 flex-wrap py-2">
-                <img src={GallImg} alt="img" className="max-h-36 rounded" />
-                <img src={GallImg} alt="img" className="max-h-36 rounded" />
-                <img src={GallImg} alt="img" className="max-h-36 rounded" />
+                <img src='./map.webp' alt="img" className="max-h-36 rounded" />
+                <img src='./map.webp' alt="img" className="max-h-36 rounded" />
+                <img src='./map.webp' alt="img" className="max-h-36 rounded" />
               </div>
             </div>
             {/* recent photos Components */}

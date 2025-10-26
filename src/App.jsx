@@ -1,28 +1,28 @@
 import "./App.css";
-import Desktop from "./assets/Components/desktop/Desktop";
+import Desktop from "./Components/desktop/Desktop";
 import {
   BrowserRouter,
   Routes,
   Route,
   } from "react-router-dom";
-import Chats from "./assets/Components/AllApps/Chats/Chats";
-import Call from "./assets/Components/AllApps/Calls/Calls";
-import Gallery from "./assets/Components/AllApps/Gallery/Gallery";
-import Snapster from "./assets/Components/AllApps/Snapster/Snapster";
-import Mail from "./assets/Components/AllApps/Mail";
-import Diary from "./assets/Components/AllApps/Diary";
-import Browser from "./assets/Components/AllApps/Browser/Browser";
-import Map from "./assets/Components/AllApps/Browser/Map/Map";
-import BlogWebsite from "./assets/Components/AllApps/Browser/BlogWeb/BlogWebsite";
-import ResultNotFound from "./assets/Components/AllApps/Browser/ResultNotFound/ResultNotFound";
-import Camera from "./assets/Components/AllApps/Camera/Camera";
-import SnapUserProfile from "./assets/Components/AllApps/Snapster/SnapCompo/SnapUserProfile";
-import SnapHome from "./assets/Components/AllApps/Snapster/SnapCompo/SnapHome";
-import CallDialer from "./assets/Components/AllApps/Calls/CallDialer";
-import CallHome from "./assets/Components/AllApps/Calls/CallHome";
-import AllUserBox from "./assets/Components/AllApps/Chats/AllUserBox";
-import AllUserIdCompo from "./assets/Components/AllApps/Chats/Compo/AllUserIdCompo";
-import Music from "./assets/Components/AllApps/Music/Music";
+import Chats from "./Components/AllApps/Chats/Chats";
+import Call from "./Components/AllApps/Calls/Calls";
+import Gallery from "./Components/AllApps/Gallery/Gallery";
+import Snapster from "./Components/AllApps/Snapster/Snapster";
+import Mail from "./Components/AllApps/Mail";
+import Diary from "./Components/AllApps/Diary";
+import Browser from "./Components/AllApps/Browser/Browser";
+import Map from "./Components/AllApps/Browser/Map/Map";
+import BlogWebsite from "./Components/AllApps/Browser/BlogWeb/BlogWebsite";
+import ResultNotFound from "./Components/AllApps/Browser/ResultNotFound/ResultNotFound";
+import Camera from "./Components/AllApps/Camera/Camera";
+import SnapUserProfile from "./Components/AllApps/Snapster/SnapCompo/SnapUserProfile";
+import SnapHome from "./Components/AllApps/Snapster/SnapCompo/SnapHome";
+import CallDialer from "./Components/AllApps/Calls/CallDialer";
+import CallHome from "./Components/AllApps/Calls/CallHome";
+import AllUserBox from "./Components/AllApps/Chats/AllUserBox";
+import AllUserIdCompo from "./Components/AllApps/Chats/Compo/AllUserIdCompo";
+import Music from "./Components/AllApps/Music/Music";
 
 function App() {
   return (

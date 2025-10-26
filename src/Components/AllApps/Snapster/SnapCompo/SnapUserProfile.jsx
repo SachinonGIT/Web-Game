@@ -1,7 +1,6 @@
 import React, { useRef, useState, useEffect, useMemo } from "react";
-import kaushalImg from "../../../../Images/kaushal.webp";
-import priyanshuImg from "../../../../Images/priyanshu.webp";
 import SnapPost from "./SnapPost";
+// import adamImg from "./MainUser.webp";
 import { HiViewGrid } from "react-icons/hi";
 import { useParams } from "react-router-dom";
 
@@ -13,10 +12,10 @@ const ShowPost = ({ postId, userData }) => {
   const [commentData, setCommentData] = useState([]);
 
   useEffect(() => {
-  
+
     if (userData) {
       const findPost = userData.UploadedPosts?.find((e) => e.PostId === postId);
-      
+      // console.log(userData, "userdata");
       if (findPost) {
 
         setUserPostImg(findPost.Image);
@@ -25,9 +24,9 @@ const ShowPost = ({ postId, userData }) => {
         setCommentCount(findPost.Comments?.length || 0);
         setCommentData(findPost.Comments || []);
       }
-    }
+    }else{console.log("no user data")}
   }, [userData, postId]);
-console.log(userData?.UserId)
+// console.log(userData?.UserId)
   return (
     <SnapPost
       userName={userData?.UserName}
@@ -52,9 +51,9 @@ function SnapUserProfile() {
   // Memoize the fetch response to avoid redundant fetch calls
   const fetchUserData = useMemo(() => {
     return fetch("/AllImgData.json")
-      .then((res) => res.json())
+      .then((res) =>res.json())
       .then((data) => {
-        return data.find((e) => e.UserId === paramData.ParamId);
+        return data.find((user) => user.UserId === paramData.ParamId);
       })
       .catch((err) => {
         console.error("Error fetching data:", err);

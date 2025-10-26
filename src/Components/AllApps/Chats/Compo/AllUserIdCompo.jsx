@@ -5,9 +5,6 @@ import { Link, useParams } from "react-router-dom";
 import { IoCaretBack } from "react-icons/io5";
 import useCurrentTime from "../../Clock/useCurrentTime";
 import MsgBoxCompo from "./MsgBoxCompo";
-import sachinImg from "../../../../Images/sachin.webp";
-import priyanshuImg from "../../../../Images/priyanshu.webp";
-import kaushalImg from "../../../../Images/kaushal.webp";
 import { TbPointFilled } from "react-icons/tb";
 
 // Message Box Component
@@ -79,7 +76,7 @@ function AllUserIdCompo() {
       setchatUserMsg(sachinMsg);
       setinnerMsg(sachinMsg[0].msgtxt);
       setchatUserName("Sachin Kumar");
-      setchatUserDp(sachinImg);
+      setchatUserDp("./sachin.webp");
       setchatUserBio("isn't the Moon Beautiful");
       setchatUserNum("+91 xxxx xx90");
       return;
@@ -88,14 +85,14 @@ function AllUserIdCompo() {
       setchatUserMsg(kauhsalMsg);
       setinnerMsg(kauhsalMsg[0].msgtxt);
       setchatUserName("Kaushal Kishore");
-      setchatUserDp(kaushalImg);
+      setchatUserDp("./kaushal.webp");
       setchatUserBio("Bio of Kaushal");
       setchatUserNum("+91 xxxx xx71");
       return;
     }
     if (param.userId === "priyanshu") {
       setchatUserName("Priyanshu Kumar");
-      setchatUserDp(priyanshuImg);
+      setchatUserDp("./priyanshu.webp");
       setchatUserBio("This is priyanshu bio");
       setchatUserNum("+91 xxxx xx89");
     } else {

@@ -2,26 +2,26 @@
   {
     "UserId": "Adam",
     "UserName": "Adam -1",
-    "UserProfile" : "../src/assets/Images/mainUser.webP",
+    "UserProfile" : "/MainUser.webp",
     "UserBio": "This is Adam",
     "Followers": 1320,
     "Following": 35,
     "UploadedPosts": [
       {
         "PostId": "101",
-        "Image": "../src/assets/Images/Kaushal.jpg",
+        "Image": "/kaushal.webp",
         "Caption": "Yo Guys!! meet my new friends😎",
         "Likes": 5,
         "Comments": [
           {
-            "userProfile": "../src/assets/Images/Priyanshu.jpg",
+            "userProfile": "/priyanshu.webp",
             "userName": "Priyanshu",
             "userId": "priyanshu_3941",
             "userCmd": "He also posted Photo and mention you",
             "id": 0
           },
           {
-            "userProfile": "../src/assets/Images/Kaushal.jpg",
+            "userProfile": "/kaushal.webp",
             "userName": "Kaushal",
             "userId": "kishortokaushal",
             "userCmd": "Same here Mere bhai",
@@ -31,19 +31,19 @@
       },
       {
         "PostId": "102",
-        "Image": "../src/assets/Images/Priyanshu.jpg",
+        "Image": "/priyanshu.webp",
         "Caption": "My college as usual ",
         "Likes": 7,
         "Comments": [
           {
-            "userProfile": "../src/assets/Images/Priyanshu.jpg",
+            "userProfile": "/priyanshu.webp",
             "userName": "Priyanshu",
             "userId": "priyanshu_3941",
             "userCmd": "this is Priyanshu's Comment",
             "id": 0
           },
           {
-            "userProfile": "../src/assets/Images/Kaushal.jpg",
+            "userProfile": "/kaushal.webp",
             "userName": "Kaushal",
             "userId": "kishortokaushal",
             "userCmd": "this is Kaushal's Comment",
@@ -56,26 +56,26 @@
   {
     "UserId": "priyanshu_3941",
     "UserName": "Priyanshu",
-    "UserProfile" : "../src/assets/Images/Priyanshu.jpg",
+    "UserProfile" : "/priyanshu.webp",
     "UserBio": "This is Priyanshu",
     "Followers": 1100,
     "Following": 120,
     "UploadedPosts": [
       {
         "PostId": "101",
-        "Image": "../src/assets/Images/collegePhoto.webP",
+        "Image": "/collegePhoto.webp",
         "Caption": "My Dream College, Someone please help me to get Admission🥹",
         "Likes": 9,
         "Comments": [
           {
-            "userProfile": "../src/assets/Images/mainUser.webP",
+            "userProfile": "/MainUser.webp",
             "userName": "Adam",
             "userId":"Adam",
             "userCmd": "yeah, Please help me too",
             "id": 0
           },
           {
-            "userProfile": "../src/assets/Images/Kaushal.jpg",
+            "userProfile": "/kaushal.webp",
             "userName": "Kaushal",
             "userId": "kishortokaushal",
             "userCmd": "Yo Bro, Entrance Exam is too tough to get admission",
@@ -85,26 +85,26 @@
       },
       {
         "PostId": "103",
-        "Image": "../src/assets/Images/sachin.jpg"
+        "Image": "/sachin.webp"
       }
     ]
   },
   {
     "UserId": "kishortokaushal",
     "UserName": "Kaushal",
-    "UserProfile" : "../src/assets/Images/Kaushal.jpg",
+    "UserProfile" : "/kaushal.webp",
     "UserBio": ["Blogger","Web Developer",      "Technology MERN Stack"],
     "Followers": 1100,
     "Following": 120,
     "UploadedPosts": [
       {
         "PostId": "103",
-        "Image": "../src/assets/Images/mainUser.webP",
+        "Image": "/MainUser.webp",
         "Caption": "Great to me you my online buddy✌️",
         "Likes": 17,
         "Comments": [
           {
-            "userProfile": "../src/assets/Images/Priyanshu.jpg",
+            "userProfile": "/priyanshu.webp",
             "userName": "Priyanshu",
             "userId": "priyanshu_3941",
             "userCmd": "Adam is a nice guy",
@@ -115,11 +115,11 @@
       },
       {
         "PostId": "102",
-        "Image": "../src/assets/Images/Priyanshu.jpg"
+        "Image": "/priyanshu.webp"
       },
       {
         "PostId": "104",
-        "Image": "../src/assets/Images/sachin.jpg"
+        "Image": "/sachin.webp"
       }
     ]
   }

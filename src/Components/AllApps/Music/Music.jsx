@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import Container from "../../uniCompo/Container";
 import { IoClose, IoPlayBack, IoPlayForward } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import disk from "../../../Images/Disk.png";
 import { IoIosPlayCircle } from "react-icons/io";
 import { FaPauseCircle } from "react-icons/fa";
 
@@ -157,7 +156,7 @@ function Music() {
                 audioPlay ? "animate-rotateDisk" : ""
               }`}
             >
-              <img src={disk} alt="disk" />
+              <img src="./Disk.png" alt="disk" />
             </div>
             <div className="w-full h-fit text-left border border-white/20 backdrop-blur-sm p-4 rounded-xl">
               <div className="songTitle text-lg font-bold capitalize">

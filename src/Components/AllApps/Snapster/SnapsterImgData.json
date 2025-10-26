@@ -8,11 +8,11 @@
       "UploadedPosts": [
         {
           "PostId": "101",
-          "Image": "./src/assets/Images/MainUser.jpg"
+          "Image": "./MainUser.jpg"
         },
         {
           "PostId": "102",
-          "Image": "./src/assets/Images/Priyanshu.jpg"
+          "Image": "./priyanshu.webp"
         }
       ]
     },
@@ -25,11 +25,11 @@
       "UploadedPosts": [
         {
           "PostId": "201",
-          "Image": "./src/assets/Images/Priyanshu.jpg"
+          "Image": "./priyanshu.webp"
         },
         {
           "PostId": "202",
-          "Image": "./src/assets/Images/Kaushal.jpg"
+          "Image": "./kaushal.webp"
         }
       ]
     },
@@ -42,11 +42,11 @@
       "UploadedPosts": [
         {
           "PostId": "301",
-          "Image": "./src/assets/Images/Kaushal.jpg"
+          "Image": "./kaushal.webp"
         },
         {
           "PostId": "302",
-          "Image": "./src/assets/Images/Sachin.jpg"
+          "Image": "./sachin.webp"
         }
       ]
     }

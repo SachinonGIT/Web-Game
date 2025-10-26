@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link, Outlet, useParams } from "react-router-dom";
-import kaushalImg from "../../../Images/Kaushal.webp";
 // changed the kauhsal.jpg to kaushal.webp because of vercel deployment issue with jpg
 import { RxCross2 } from "react-icons/rx";
 import { IoMdArrowRoundBack } from "react-icons/io";
@@ -29,7 +28,7 @@ function Snapster() {
             <div className="w-9 rounded-full overflow-hidden">
               {backBtn ? (
                 <Link to="/snapster/kishortokaushal">
-                  <img src={kaushalImg} alt="dp" />
+                  <img src='./kaushal.webp' alt="dp" />
                 </Link>
               ) : (
                 <Link to="/snapster">
