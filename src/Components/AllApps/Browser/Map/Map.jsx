@@ -9,7 +9,7 @@ function Map() {
           <UrlBar />
           <div className="p-3 ">
             <div className="m-3 p-3 flex justify-center items-center">
-              <img className="rounded-md text-center sm:h-96" src="./map.webp" alt="map" />
+              <img className="rounded-md text-center sm:h-96" src="/map.webp" alt="map" />
             </div>
             <div className="text-left p-3 m-3">
               <h1 className="text-lg text-slate-200 font-bold">Area Map</h1>
