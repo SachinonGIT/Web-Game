@@ -76,7 +76,7 @@ function AllUserIdCompo() {
       setchatUserMsg(sachinMsg);
       setinnerMsg(sachinMsg[0].msgtxt);
       setchatUserName("Sachin Kumar");
-      setchatUserDp("./sachin.webp");
+      setchatUserDp("/sachin.webp");
       setchatUserBio("isn't the Moon Beautiful");
       setchatUserNum("+91 xxxx xx90");
       return;
@@ -85,14 +85,14 @@ function AllUserIdCompo() {
       setchatUserMsg(kauhsalMsg);
       setinnerMsg(kauhsalMsg[0].msgtxt);
       setchatUserName("Kaushal Kishore");
-      setchatUserDp("./kaushal.webp");
+      setchatUserDp("/kaushal.webp");
       setchatUserBio("Bio of Kaushal");
       setchatUserNum("+91 xxxx xx71");
       return;
     }
     if (param.userId === "priyanshu") {
       setchatUserName("Priyanshu Kumar");
-      setchatUserDp("./priyanshu.webp");
+      setchatUserDp("/priyanshu.webp");
       setchatUserBio("This is priyanshu bio");
       setchatUserNum("+91 xxxx xx89");
     } else {

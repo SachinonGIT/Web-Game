@@ -35,7 +35,7 @@ function AllUserBox() {
       id: 1,
       chatUserDataId: "sachin",
       userName: "Sachin kumar",
-      imgSrc:  "./sachin.webp",
+      imgSrc:  "/sachin.webp",
       lastMsg: "your last msg goes here...",
       unreadMsg: "2",
     },
@@ -43,7 +43,7 @@ function AllUserBox() {
       id: 2,
       chatUserDataId: "priyanshu",
       userName: "Priyanshu Shakya",
-      imgSrc: "./priyanshu.webp",
+      imgSrc: "/priyanshu.webp",
       lastMsg: "Priyanshu's last msg goes here...",
       unreadMsg: "3",
     },
@@ -51,7 +51,7 @@ function AllUserBox() {
       id: 3,
       chatUserDataId: "kaushal",
       userName: "Kaushal Kishore",
-      imgSrc: "./kaushal.webp",
+      imgSrc: "/kaushal.webp",
       lastMsg: "Kaushal's last msg goes here...",
       unreadMsg: "3",
     },
@@ -60,7 +60,9 @@ function AllUserBox() {
   return (
     <>
       <div className="allUserBox h-full overflow-y-scroll scrollbar-none m-2 mx-3">
-      {usersData.map((user) => (
+      {usersData.map((
+        user
+      ) => (
           <span key={user.id}>
             <UserChatBoxOpener
               yourName={user.userName}

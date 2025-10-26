@@ -18,7 +18,7 @@ function Browser() {
         
           <div className="m-2 sm:m-4 p-2 flex flex-col gap-7">
             {/* map div start */}
-            <Link to ="/browser/map" > <MainBox boxImg='./map.webp' boxTitle={"Area Map"} boxMeta={`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ex maxime hic, nam consectetur in eius illum voluptates sit recusandae? `} boxUrl={"https://www.map.com//"}/>
+            <Link to ="/browser/map" > <MainBox boxImg='/map.webp' boxTitle={"Area Map"} boxMeta={`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ex maxime hic, nam consectetur in eius illum voluptates sit recusandae? `} boxUrl={"https://www.map.com//"}/>
             </Link>
             {/* map div end */}
            
